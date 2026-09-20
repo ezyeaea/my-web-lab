@@ -2,12 +2,33 @@
 <html lang="mn">
 <head>
     <meta charset="UTF-8">
-    <title>Миний тухай</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бидний тухай</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Миний шинэчлэгдсэн веб сайт</h1>
-    <p>Энд өөрийн тухай мэдээлэл бичнэ.</p>
-    <a href="index.html">Нүүр хуудас руу буцах</a>
+    <header>
+        <div class="logo">MyWebsite</div>
+        <nav>
+            <a href="index.html">Нүүр</a>
+            <a href="about.html" class="active">Бидний тухай</a>
+            <a href="contact.html">Холбоо барих</a>
+        </nav>
+    </header>
+
+    <main class="content-section">
+        <h1>Бидний тухай</h1>
+        <p>Энэхүү төсөл нь "Орчин үеийн хэрэгслүүдээр веб программчлал" хичээлийн бие даалтын ажлын хүрээнд хийгдсэн.</p>
+        <div class="info-box">
+            <h3>Зорилго</h3>
+            <p>Git, GitHub, HTML, CSS, JavaScript технологиудыг ашиглан веб сайт хөгжүүлэх болон салбар (branch) нэгтгэх workflow-ийг эзэмших.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Миний Бие Даалтын Веб Сайт</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html> 
+</html>
