@@ -1,3 +1,51 @@
 <?php
 echo "Сайн байна уу! PHP ажиллаж байна.";
 ?>
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Миний веб сайт - Нүүр</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">feature 1</div>
+        <nav>
+            <a href="index.html" class="active">Нүүр</a>
+            <a href="about.html">Бидний тухай</a>
+            <a href="contact.html">Холбоо барих</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Манай веб сайтад тавтай морилно уу!</h1>
+            <p>Энэ бол Git болон GitHub ашиглан хөгжүүлсэн статик веб сайт юм.</p>
+            <button id="mainBtn">Дэлгэрэнгүй үзэх</button>
+        </section>
+
+        <section class="features">
+            <div class="card">
+                <h3>Хурдан ажиллагаа</h3>
+                <p>Орчин үеийн хэрэгслүүдээр бүтээгдсэн.</p>
+            </div>
+            <div class="card">
+                <h3>Уян хатан дизайн</h3>
+                <p>Бүх төрлийн төхөөрөмжид тохирно.</p>
+            </div>
+            <div class="card">
+                <h3>Хялбар бүтэц</h3>
+                <p>Ойлгомжтой, цэвэрхэн кодлогдсон.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Миний Бие Даалтын Веб Сайт</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
