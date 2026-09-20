@@ -11,7 +11,7 @@ echo "Сайн байна уу! PHP ажиллаж байна.";
 </head>
 <body>
     <header>
-        <div class="logo">feature 1</div>
+        <div class="logo">feature 2</div>
         <nav>
             <a href="index.html" class="active">Нүүр</a>
             <a href="about.html">Бидний тухай</a>
